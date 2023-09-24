@@ -33,7 +33,7 @@ input, button {
     margin: 1rem 0;
 }
 
-button, a[data-attribute="social-link"] {
+button, a.social-link {
     font-size: 100%;
     font-family: inherit;
     border: 1px solid white;
@@ -47,7 +47,7 @@ button, a[data-attribute="social-link"] {
     }
 }
 
-button:hover, a[data-attribute="social-link"]:hover {
+button:hover, a.social-link:hover {
     background: white;
     color:black;
 }
@@ -81,7 +81,7 @@ button:hover, a[data-attribute="social-link"]:hover {
     flex-direction: column;
     align-items: center;
 
-    button, a[data-attribute="social-link"] {
+    button, a.social-link {
         width: 100%;
         text-align: center;
         text-decoration: none;
