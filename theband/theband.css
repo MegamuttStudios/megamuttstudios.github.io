@@ -54,10 +54,10 @@ button, a.social-link {
     padding: 1rem 0;
     cursor: pointer;
     background: transparent;
+}
 
-    i {
-        padding: 0 0.5rem;   
-    }
+button i, a.social-link i {
+    padding: 0 0.5rem;
 }
 
 button:hover, a.social-link:hover {
