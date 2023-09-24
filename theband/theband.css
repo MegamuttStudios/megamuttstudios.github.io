@@ -74,9 +74,11 @@ button:hover, a.social-link:hover {
 .button-box {
     width: 40%;
     align-self: center;
+}
 
-    @media screen and (max-device-width:1024px){
-        width: 75%;
+@media only screen and (max-width:1024px){
+    .button-box {
+        width: 75%
     }
 }
 
@@ -90,8 +92,8 @@ button:hover, a.social-link:hover {
     }
 }
 
-.subscribe span {
-    @media screen and (max-device-width:768px){
+@media only screen and (max-width:768px){
+    .subscribe span {
         display: none;
     }
 }
