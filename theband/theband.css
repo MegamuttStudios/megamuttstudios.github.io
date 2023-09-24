@@ -7,6 +7,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     justify-content: center;
  }
@@ -14,6 +15,7 @@
 .banner {
     align-items: center;
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     color: white;
     flex-direction: column;
@@ -63,6 +65,10 @@ button i, a.social-link i {
 button:hover, a.social-link:hover {
     background: white;
     color:black;
+
+    i[data-attribute="white"] {
+        color: black;
+    }
 }
 
 .button-box {
@@ -76,6 +82,7 @@ button:hover, a.social-link:hover {
 
 .subscribe {
     display: flex;
+    display: -webkit-flex;
     justify-content: space-between;
 
     > * {
@@ -90,7 +97,8 @@ button:hover, a.social-link:hover {
 }
 
 .social {
-    display: flex;
+    display: flex; 
+    display: -webkit-flex;
     flex-direction: column;
     align-items: center;
 
