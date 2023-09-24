@@ -5,7 +5,7 @@
  body {
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 100vh;
+    height: 100%;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -95,6 +95,14 @@ button:hover, a.social-link:hover {
 @media only screen and (max-width:768px){
     .subscribe span {
         display: none;
+    }
+
+    input {
+        width: 60% !important;
+    }
+
+    .subscribe button {
+        width: 30% !important;
     }
 }
 
