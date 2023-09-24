@@ -28,9 +28,22 @@
     }
 }
 
+a.disabled {
+    pointer-events:none !important;
+}
+
+a.disabled:hover {
+    background: black disabled !important;
+    color: white disabled !important;
+}
+
 input, button {
     padding: 10px 0;
     margin: 1rem 0;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
 }
 
 button, a.social-link {
