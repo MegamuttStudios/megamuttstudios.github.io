@@ -18,3 +18,22 @@ button:hover, a.social-link:hover {
 [data-attribute="red"] {color:red;}
 [data-attribute="white"] {color:white;}
 [data-attribute="pink"] {color:pink;}
+
+.banner {
+    background-image: url('../theband/images/hero_image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+
+.banner h1 {
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner h2 {
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+.banner {
+    align-items: center;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+a.disabled {
+    pointer-events:none !important;
+}
+
+a.disabled:hover {
+    background: black disabled !important;
+    color: white disabled !important;
+}
+
+input, button {
+    padding: 10px 0;
+    margin: 0.5rem 0;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+}
+
+button, a.social-link {
+    font-size: 100%;
+    font-family: inherit;
+    border: 1px solid black;
+    color: black;
+    padding: 1rem 0;
+    cursor: pointer;
+    background: transparent;
+}
+
+button i, a.social-link i {
+    padding: 0 0.5rem;
+}
+
+button:hover, a:hover {
+    cursor: pointer;
+}
+
+.button-box {
+    width: 40%;
+    align-self: center;
+}
+
+@media only screen and (max-width:1024px){
+    .button-box {
+        width: 75%
+    }
+}
+
+.subscribe {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+
+    > * {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .subscribe span {
+        display: none;
+    }
+
+    input {
+        width: 60% !important;
+    }
+
+    .subscribe button {
+        width: 30% !important;
+    }
+}
+
+.social {
+    display: flex; 
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    }
+
+.social button, .social a.social-link{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1rem 0;
+}
+
+[data-attribute="green"] {color:green;}
+[data-attribute="purple"] {color:purple;}
+[data-attribute="orange"] {color:orange;}
+[data-attribute="red"] {color:red;}
+[data-attribute="white"] {color:white;}
+[data-attribute="pink"] {color:pink;}
