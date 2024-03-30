@@ -18,6 +18,7 @@ button:hover, a.social-link:hover {
 [data-attribute="red"] {color:red;}
 [data-attribute="white"] {color:white;}
 [data-attribute="pink"] {color:pink;}
+[data-attribute="lightblue"] {color:lightblue;}
 
 .banner {
     background-image: url('../theband/images/hero_image.jpg');
